@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
-import VaxFlowLogo from '@/components/VaxFlowLogo';
+import VaxuraLogo from '@/components/VaxuraLogo';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -34,9 +34,9 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2">
-            <VaxFlowLogo className="w-10 h-10" />
+            <VaxuraLogo className="w-10 h-10" />
             <span className="font-display font-bold text-xl text-foreground">
-              VaxFlow
+              Vaxura
             </span>
           </a>
 

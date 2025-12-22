@@ -44,7 +44,7 @@ const Footer = () => {
                 <span className="text-primary-foreground font-display font-bold text-lg">V</span>
               </div>
               <span className="font-display font-bold text-xl text-background">
-                VaxFlow
+                Vaxura
               </span>
             </a>
             <p className="text-muted-foreground text-sm mb-6">
@@ -136,7 +136,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-muted/20 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-muted-foreground text-sm">
-            © 2024 VaxFlow. All rights reserved.
+            © 2024 Vaxura. All rights reserved.
           </p>
           <p className="text-muted-foreground text-sm">
             HIPAA Compliant • SOC 2 Certified

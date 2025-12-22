@@ -20,7 +20,7 @@ const FAQ = () => {
       answer: 'Our system integrates with your practice management software. When you administer a vaccine, we automatically generate claims, submit to payers, track payments, and follow up on any denials—all without manual intervention from your staff.',
     },
     {
-      question: 'What types of practices can use VaxFlow?',
+      question: 'What types of practices can use Vaxura?',
       answer: 'We serve solo practices, small and large group practices, retail clinics, and pharmacies. Our flexible platform adapts to your specific workflow and volume needs.',
     },
     {
@@ -28,7 +28,7 @@ const FAQ = () => {
       answer: 'Most practices are up and running within 2 weeks. Onboarding includes EHR integration, staff training, and initial inventory delivery. We handle all the heavy lifting.',
     },
     {
-      question: 'What vaccines are available through VaxFlow?',
+      question: 'What vaccines are available through Vaxura?',
       answer: 'We supply the full CDC-recommended vaccine schedule for both pediatric and adult patients, including flu, COVID-19, shingles, pneumonia, and specialty vaccines. We handle sourcing from all major manufacturers.',
     },
     {
@@ -53,7 +53,7 @@ const FAQ = () => {
             Frequently Asked Questions
           </h2>
           <p className="text-muted-foreground text-lg">
-            Everything you need to know about VaxFlow. Can't find your answer? 
+            Everything you need to know about Vaxura. Can't find your answer? 
             Reach out to our team.
           </p>
         </div>

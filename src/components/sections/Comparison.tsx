@@ -2,14 +2,14 @@ import { Check, X } from 'lucide-react';
 
 const Comparison = () => {
   const comparisonItems = [
-    { feature: 'Upfront Inventory Costs', traditional: true, vaxflow: false },
-    { feature: 'Risk of Expired Vaccines', traditional: true, vaxflow: false },
-    { feature: 'Manual Billing & Claims', traditional: true, vaxflow: false },
-    { feature: 'Insurance Eligibility Delays', traditional: true, vaxflow: false },
-    { feature: 'Multiple Vendor Relationships', traditional: true, vaxflow: false },
-    { feature: 'Automated Reimbursement', traditional: false, vaxflow: true },
-    { feature: 'Real-Time Reporting', traditional: false, vaxflow: true },
-    { feature: 'Guaranteed Revenue per Dose', traditional: false, vaxflow: true },
+    { feature: 'Upfront Inventory Costs', traditional: true, vaxura: false },
+    { feature: 'Risk of Expired Vaccines', traditional: true, vaxura: false },
+    { feature: 'Manual Billing & Claims', traditional: true, vaxura: false },
+    { feature: 'Insurance Eligibility Delays', traditional: true, vaxura: false },
+    { feature: 'Multiple Vendor Relationships', traditional: true, vaxura: false },
+    { feature: 'Automated Reimbursement', traditional: false, vaxura: true },
+    { feature: 'Real-Time Reporting', traditional: false, vaxura: true },
+    { feature: 'Guaranteed Revenue per Dose', traditional: false, vaxura: true },
   ];
 
   return (
@@ -21,7 +21,7 @@ const Comparison = () => {
             The Difference
           </span>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Traditional vs. VaxFlow
+            Traditional vs. Vaxura
           </h2>
           <p className="text-muted-foreground text-lg">
             See why practices are switching to a smarter way to manage vaccines.
@@ -40,7 +40,7 @@ const Comparison = () => {
                 Traditional
               </div>
               <div className="p-6 text-center font-display font-semibold text-primary border-l border-border bg-primary/5">
-                VaxFlow
+                Vaxura
               </div>
             </div>
 
@@ -67,7 +67,7 @@ const Comparison = () => {
                   )}
                 </div>
                 <div className="p-5 flex justify-center items-center border-l border-border bg-primary/5">
-                  {item.vaxflow ? (
+                  {item.vaxura ? (
                     <div className="w-8 h-8 rounded-full bg-primary/15 flex items-center justify-center">
                       <Check className="w-5 h-5 text-primary" />
                     </div>

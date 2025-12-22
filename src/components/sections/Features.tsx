@@ -52,7 +52,7 @@ const Features = () => {
             Everything You Need in One Platform
           </h2>
           <p className="text-muted-foreground text-lg">
-            VaxFlow handles supply, billing, inventory, and compliance—so you can focus 
+            Vaxura handles supply, billing, inventory, and compliance—so you can focus 
             on what matters: your patients.
           </p>
         </div>
