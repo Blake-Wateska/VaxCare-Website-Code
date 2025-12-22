@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import VaxuraLogo from '@/components/VaxuraLogo';
 
 const Header = () => {
@@ -33,12 +34,12 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2">
+          <Link to="/" className="flex items-center gap-2">
             <VaxuraLogo className="w-10 h-10" />
             <span className="font-display font-bold text-xl text-foreground">
               Vaxura
             </span>
-          </a>
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
@@ -56,7 +57,9 @@ const Header = () => {
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center gap-4">
             <Button variant="ghost">Log In</Button>
-            <Button variant="accent">Get Started</Button>
+            <Button variant="accent" asChild>
+              <Link to="/demo">Join Demo</Link>
+            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -89,7 +92,9 @@ const Header = () => {
               ))}
               <div className="flex flex-col gap-2 px-4 pt-4 border-t border-border mt-4">
                 <Button variant="ghost" className="w-full">Log In</Button>
-                <Button variant="accent" className="w-full">Get Started</Button>
+                <Button variant="accent" className="w-full" asChild>
+                  <Link to="/demo" onClick={() => setIsMobileMenuOpen(false)}>Join Demo</Link>
+                </Button>
               </div>
             </nav>
           </div>
