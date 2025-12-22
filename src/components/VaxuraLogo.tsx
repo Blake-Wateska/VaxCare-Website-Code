@@ -1,4 +1,4 @@
-const VaxFlowLogo = ({ className = "w-10 h-10" }: { className?: string }) => {
+const VaxuraLogo = ({ className = "w-10 h-10" }: { className?: string }) => {
   return (
     <svg
       viewBox="0 0 48 48"
@@ -84,4 +84,4 @@ const VaxFlowLogo = ({ className = "w-10 h-10" }: { className?: string }) => {
   );
 };
 
-export default VaxFlowLogo;
+export default VaxuraLogo;

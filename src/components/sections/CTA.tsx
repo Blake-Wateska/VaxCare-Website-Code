@@ -34,19 +34,19 @@ const CTA = () => {
           {/* Contact Options */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 text-primary-foreground/80">
             <a
-              href="tel:1-800-VAX-FLOW"
+              href="tel:1-800-VAX-URA"
               className="flex items-center gap-2 hover:text-primary-foreground transition-smooth"
             >
               <Phone className="w-5 h-5" />
-              <span>1-800-VAX-FLOW</span>
+              <span>1-800-VAX-URA</span>
             </a>
             <span className="hidden sm:inline text-primary-foreground/40">|</span>
             <a
-              href="mailto:hello@vaxflow.com"
+              href="mailto:hello@vaxura.com"
               className="flex items-center gap-2 hover:text-primary-foreground transition-smooth"
             >
               <Mail className="w-5 h-5" />
-              <span>hello@vaxflow.com</span>
+              <span>hello@vaxura.com</span>
             </a>
           </div>
 

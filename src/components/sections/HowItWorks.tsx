@@ -41,7 +41,7 @@ const HowItWorks = () => {
             Simple Steps to Stress-Free Vaccines
           </h2>
           <p className="text-muted-foreground text-lg">
-            Get started in minutes, not months. Here's how VaxFlow transforms your vaccine program.
+            Get started in minutes, not months. Here's how Vaxura transforms your vaccine program.
           </p>
         </div>
 
